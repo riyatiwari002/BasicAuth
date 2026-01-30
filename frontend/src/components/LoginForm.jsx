@@ -29,7 +29,7 @@ const LoginForm = () => {
     };
 
     const response = await axios.post(
-      "http://localhost:5000/api/auth/login",
+      "https://basicauth-1.onrender.com/api/auth/login",
       newData
     );
 
