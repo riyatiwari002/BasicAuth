@@ -31,7 +31,7 @@ const SignupForm = () => {
     };
 
     const response = await axios.post(
-      "http://localhost:5000/api/auth/register",
+      "https://basicauth-1.onrender.com/api/auth/register",
       newData
     );
 
